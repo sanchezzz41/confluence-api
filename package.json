@@ -1,5 +1,5 @@
 {
-  "name": "confluence-api",
+  "name": "confluence-api-token",
   "version": "1.4.0",
   "description": "Confluence API wrapper for NodeJS",
   "main": "./lib/confluence.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/johnpduane/confluence-api.git"
+    "url": "https://github.com/Tiago-hub/confluence-api"
   },
   "keywords": [
     "atlassian",
