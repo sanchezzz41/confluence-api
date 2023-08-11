@@ -4,7 +4,7 @@ This project contains a Node.js module which wraps Atlassian's [Confluence API](
 ## Getting Started
 Install confluence-api via npm:
 ```
-$ npm install confluence-api
+$ npm install @sanchezzz41/confluence-api-token
 ```
 
 Create an instance of Confluence by providing a username and password (or token) and a baseUrl used for all future requests.  Confluence uses [basic http authentication](https://developer.atlassian.com/cloud/confluence/basic-auth-for-rest-apis/). For instance:
