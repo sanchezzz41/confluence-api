@@ -49,8 +49,9 @@ Construct Confluence.
 | Param | Type | Description |
 | --- | --- | --- |
 | config | <code>Object</code> |  |
-| config.username | <code>string</code> |  |
-| config.password | <code>string</code> |  |
+| config.username | <code>string</code> | Optional |
+| config.password | <code>string</code> | Optional |
+| config.pat | <code>string</code> | Optional |
 | config.baseUrl | <code>string</code> |  |
 | config.version | <code>number</code> | Optional |
 
@@ -225,7 +226,7 @@ Post content labels to a existing page.
 | Param | Type |
 | --- | --- |
 | id | <code>string</code> | 
-| labels | <code>Array.&lt;{prefix:string, name:string}&gt;</code> | 
+| labels | <code>[ &#x27;Array&#x27; ].&lt;{prefix:string, name:string}&gt;</code> | 
 | callback | <code>function</code> | 
 
 <a name="Confluence+deleteLabel"></a>
@@ -256,10 +257,6 @@ Search by query
 <a name="request"></a>
 
 ## request
-Node.js wrapper for Atlassian's Confluence API.
-See https://developer.atlassian.com/confdev/confluence-rest-api
-
-Copyright (c) 2015, John Duane
-Released under the MIT License
+Node.js wrapper for Atlassian's Confluence API.See https://developer.atlassian.com/confdev/confluence-rest-apiCopyright (c) 2015, John DuaneReleased under the MIT License
 
 **Kind**: global variable  
